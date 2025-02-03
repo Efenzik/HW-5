@@ -89,3 +89,65 @@ switch (whichColor) {
     console.log("Ви вибрали нічого або інший колір не з списку !");
     break;
 }
+
+// 5======================
+
+const firstNumber = 15;
+const secondNumber = 8;
+
+const operator = "+";
+
+switch (operator) {
+  case "+":
+    console.log(firstNumber + secondNumber);
+    break;
+  case "-":
+    console.log(firstNumber - secondNumber);
+    break;
+  case "*":
+    console.log(firstNumber * secondNumber);
+    break;
+  case "/":
+    console.log(firstNumber / secondNumber);
+
+    alert(`Твоє число : ${firstNumber / secondNumber}`);
+
+    break;
+  default:
+    console.log("Невірні числа ");
+    break;
+}
+//  Калькулятор мій
+
+// const firstNumber = parseFloat(prompt("Введіть перше число:"));
+// const secondNumber = parseFloat(prompt("Введіть друге число:"));
+
+// const action = prompt("Виберіть дію : ");
+
+// let result;
+
+// switch (action) {
+//   case "+":
+//     result = firstNumber + secondNumber;
+//     console.log(`Результат дії : ${firstNumber} + ${secondNumber} = ${result}`);
+//     break;
+//   case "-":
+//     result = firstNumber - secondNumber;
+//     console.log(`Результат дії : ${firstNumber} - ${secondNumber} = ${result}`);
+//     break;
+//   case "*":
+//     result = firstNumber * secondNumber;
+//     console.log(`Результат дії : ${firstNumber} * ${secondNumber} = ${result}`);
+//     break;
+//   case "/":
+//     if (secondNumber !== 0) {
+//       result = firstNumber / secondNumber;
+//       console.log(`
+//             Результат дії : ${firstNumber} / ${secondNumber} = ${result}`);
+//     } else {
+//       console.log("На нуль ділити не можна");
+//     }
+//     break;
+//   default:
+//     console.log("Ви вибрали нічого або іншу дію не з списку !");
+// }
